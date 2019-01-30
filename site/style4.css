@@ -1,0 +1,77 @@
+/* Feuille de styles CSS */
+/*element princ de la page*/
+
+
+body
+{
+	background: url(fond-jaune-clair.png);
+	font-family: Arial, sans-serif;
+	color: #181811.
+}
+/*#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}*/
+section p, footer p, nav a
+{
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+/*initialisation header*/
+header
+{
+	/*display: flex;
+	justify-content: space-between;
+	align-items: flex-end;*/
+	border: 5px solid red;
+	text-align: center;
+}
+#titre_principal
+{
+	/*display: flex;
+	flex-direction: column;*/
+	border: 5px solid blue;
+}
+#logo
+{
+	/*display: flex;
+	flex-direction: column;
+	align-items: baseline;*/
+	text-align: center;
+}
+#logo img
+{
+	/*float: left;*/
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+}
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+   	display: flex;
+}
+/*boutons navigation*/
+nav li
+{
+    margin-right: 10px;
+}
+
+nav a
+{
+    font-size: 1.2em;
+    color: #181818;
+    padding-bottom: 4px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
